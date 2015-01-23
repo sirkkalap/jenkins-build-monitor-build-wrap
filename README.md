@@ -7,7 +7,7 @@ Docker / boot2docker
 
 ## Run
 
-    `./build-jenkins-build-monitor-plugin.sh`
+    ./build-jenkins-build-monitor-plugin.sh
 
 or
 
