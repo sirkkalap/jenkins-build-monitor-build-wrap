@@ -5,9 +5,9 @@ cd jenkins-build-monitor-plugin
 mvn package
 EndOfBuildScript
 
-id=$(docker run -it sirkkalap/jenkins-swarm-slave-nlm /bin/bash -c 1>&2 "$BUILD_SCRIPT")
+id=$(docker run -i sirkkalap/jenkins-swarm-slave-nlm /bin/bash -c 1>&2 "$BUILD_SCRIPT")
 
 docker cp $id:/home/jenkins-slave/jenkins-build-monitor-plugin/target jenkins-build-monitor-plugin
 
-docker rm $id
+docker rm -f $id
 

@@ -7,8 +7,10 @@ Docker / boot2docker
 
 ## Run
 
-./build-jenkins-build-monitor-plugin.sh
+    `./build-jenkins-build-monitor-plugin.sh`
 
 or
 
-curl -sSL https://raw.githubusercontent.com/sirkkalap/jenkins-build-monitor-build-wrap/master/build-jenkins-build-radiator-plugin.sh | bash -
+```bash
+    curl -sSL https://raw.githubusercontent.com/sirkkalap/jenkins-build-monitor-build-wrap/master/build-jenkins-build-radiator-plugin.sh | bash -
+```
